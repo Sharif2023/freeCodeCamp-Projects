@@ -17,7 +17,7 @@ header {
     height: 80px;
     text-align: center;
     position: relative;
-    background-color: aliceblue;
+    background-color: #aae3b8;
 
     border: 1px solid rgba(0, 0, 0, 0.26);
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.116);
@@ -43,13 +43,13 @@ header .logo-wrapper {
 /* style for the main heading of page */
 header h1 {
     line-height: 80px;
-    color: #25265e;
+    color: #df0909;
 }
 
 .table-of-content {
     width: 30%;
     border: 1px solid rgba(0, 0, 0, 0.137);
-    color: #25265e;
+    
     padding: 8px;
     height: 700px; /* Defines the fixed height */
     overflow-y: auto; /* Enables vertical scrolling */
@@ -61,6 +61,7 @@ header h1 {
 
 .menu-heading {
     margin-bottom: 20px;
+    color: #12832e;
 }
 
 .table-of-content ul {
@@ -79,7 +80,7 @@ header h1 {
     font-weight: bold;
     text-decoration: none;
     margin-bottom: 12px;
-    color: #25265e;
+    color: #df0909;
 }
 
 /* provides the bottom spacing for each list item in menu */
@@ -87,14 +88,17 @@ header h1 {
     margin-bottom: 16px;
 }
 
+ul li a{
+    text-decoration: none;
+}
 /* color the menu item */
 .table-of-content a {
-    color: #25265e;
+    color: #2c2c2c;
 }
 
 /* change color of menu items while on hovering */
 .table-of-content a:hover {
-    color: blue;
+    color: #12832e;
 }
 
 /* changes color while menu items are clicked */
@@ -123,9 +127,17 @@ header h1 {
     padding: 10px;
 }
 
-h2,
+h2{
+    font-weight: bold;
+}
+.green{
+    color: #12832e;
+}
+.red{
+    color: red;
+}
 h3 {
-    color: #25265e;
+    color: #12832e;
     margin-bottom: 12px;
 }
 
@@ -162,7 +174,7 @@ footer {
     height: 50px;
     font-size: 14px;
     text-align: center;
-    color: #25265e;
+    color: #12832e;
     background-color: aliceblue;
     border: 1px solid rgba(0, 0, 0, 0.26);
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.116);
@@ -171,6 +183,9 @@ footer {
 /* provide line-height same as height of footer to vertically center */
 footer p {
     line-height: 50px;
+}
+footer a{
+    text-decoration: none;
 }
 
 /* adding media query for responsiveness  */
